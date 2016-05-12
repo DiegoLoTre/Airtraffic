@@ -1,36 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
-
-    <item android:title="Communicate">
+    <item
+        android:title="@string/airport">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/showAirports"
+                android:id="@+id/showAirport" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/airportData"
+                android:id="@+id/airportData" />
+            <item
+                android:title="@string/departuresAirport"
+                android:id="@+id/departuresAirport" />
+            <item
+                android:title="@string/arrivalsAirport"
+                android:id="@+id/arrivalsAirport" />
+            <item
+                android:title="@string/addAirport"
+                android:id="@+id/addAirport" />
         </menu>
     </item>
+    <item
+        android:title="@string/airline">
+        <menu>
+            <item
+                android:title="@string/showAirlines"
+                android:id="@+id/showAirlines" />
+            <item
+                android:title="@string/airlinesData"
+                android:id="@+id/airlinesData" />
+            <item
+                android:title="@string/airlinesFlights"
+                android:id="@+id/airlinesFlights" />
+            <item
+                android:title="@string/addAirline"
+                android:id="@+id/addAirline" />
+        </menu>
+    </item>
+    <item
+        android:title="@string/airplanes">
+        <menu>
+            <item
+                android:title="@string/showAirplanes"
+                android:id="@+id/showAirplanes" />
 
+            <item
+                android:title="@string/airplaneData"
+                android:id="@+id/airplaneData" />
+            <item
+                android:title="@string/addAirplane"
+                android:id="@+id/addAirplane"/>
+        </menu>
+    </item>
+    <item
+        android:title="@string/flights">
+        <menu>
+            <item
+                android:title="@string/showFlights"
+                android:id="@+id/showFlights"/>
+            <item
+                android:title="@string/searchFlights"
+                android:id="@+id/searchFlights" />
+            <item
+                android:title="@string/checkFlight"
+                android:id="@+id/checkFlight" />
+            <item
+                android:title="@string/addNewFlight"
+                android:id="@+id/addNewFlight"/>
+        </menu>
+    </item>
 </menu>

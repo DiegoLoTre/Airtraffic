@@ -1,8 +1,72 @@
 <resources>
-    <string name="app_name">Airtraffic</string>
+    <string name="app_name">Aeropuerto Internacional SJ &amp; RR &amp; LT</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="flights">Flights</string>
+    <string name="showFlights">Show Flights</string>
+    <string name="searchFlights">Search Flights By Status</string>
+    <string name="checkFlight">Check A Specific flight</string>
+    <string name="addNewFlight">Add New Flight</string>
+
+    <string name="airport">Airport</string>
+    <string name="showAirports">Show Airports</string>
+    <string name="airportData">Data Of A Airport</string>
+    <string name="departuresAirport">Show Departures Airport</string>
+    <string name="arrivalsAirport">Show Arrivals Airport</string>
+    <string name="addAirport">Add New Airport</string>
+
+    <string name="airline">Airlines</string>
+    <string name="showAirlines">Show Airlines</string>
+    <string name="airlinesData">Data Of A Airline</string>
+    <string name="airlinesFlights">Flights Of A Airline</string>
+    <string name="addAirline">Add New Airline</string>
+
+    <string name="airplanes">Airplanes</string>
+    <string name="showAirplanes">Show Airplanes</string>
+    <string name="airplaneData">Data Of A Airplane</string>
+    <string name="addAirplane">Add New Airplane</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status">Status</string>
+    <string name="day">Day</string>
+    <string name="search">Search</string>
+    <string name="airportCode">Airport Code</string>
+    <string name="airportName">Airport Name</string>
+    <string name="airportAddress">Airport Address</string>
+
+    <string name="flightNumber">Flight Number</string>
+    <string name="airplane">Airplane</string>
+    <string name="destination">Destination</string>
+    <string name="origin">Origin</string>
+    <string name="departure">Departure</string>
+    <string name="arrival">Arrival</string>
+
+    <string-array name="status">
+        <item>ON TIME</item>
+        <item>DELAYED</item>
+        <item>ARRIVED</item>
+        <item>FLYING</item>
+    </string-array>
+    <string name="title_activity_deploy_flight">DeployFlight</string>
+    <string name="title_activity_deploy_airport">DeployAirport</string>
+    <string name="title_activity_deploy_departure">DeployDeparture</string>
+
+    <string name="airlineCode">Airline Code</string>
+    <string name="airlineName">Airline Name</string>
+    <string name="airlineBase">Airline Base</string>
+    <string name="title_activity_deploy_airline">DeployAirline</string>
+
+    <string name="plate">Plate</string>
+    <string name="owner">Owner</string>
+    <string name="model">Model</string>
+    <string name="hoursOnFlight">Hours On Flight</string>
+    <string name="title_activity_deploy_airplane">DeployAirplane</string>
+    <string name="addNewAirport">Add New Airport</string>
+    <string name="addNewAirline">Add New Airline</string>
+    <string name="plane">Plane</string>
+    <string name="LogoImage">Logo image</string>
 </resources>
